@@ -25,16 +25,16 @@ const Card = ({card, cartCard, setCartCard}) => {
      const IconComponent = iconMap[icon];
 
   return (
-                <div className="card bg-base-100 shadow-sm relative">
-  <div className="card-body ">
+   <div className="card bg-base-100 shadow-sm relative">
+  <div className="">
     <span className="badge badge-xs badge-warning absolute top-4 right-4 ">{tag}</span>
     <div className="flex flex-col">
        <IconComponent className="text-3xl text-purple-500 " />
-      <h2 className="text-3xl font-bold">{name}</h2>
+      <h2 className="text-2xl font-bold">{name}</h2>
       <p>{description}</p>
       <span className="text-xl">${price}/{period}</span>
     </div>
-    <ul className="mt-6 flex flex-col gap-2 text-xs">
+    <ul className="mt-2.5 flex flex-col gap-2 text-xs">
       {
         features.map((feature, index) => 
         <li  key={index}>
@@ -43,7 +43,7 @@ const Card = ({card, cartCard, setCartCard}) => {
         <span>{feature}</span>
          </li> ) }
     </ul>
-    <div className="mt-6">
+    <div className="mt-2.5">
       <button onClick={() =>  {
      setCartCard([...cartCard, card])
      setClicked(!clicked)

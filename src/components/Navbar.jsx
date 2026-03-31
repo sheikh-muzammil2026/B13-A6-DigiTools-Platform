@@ -3,7 +3,7 @@ import { CiShoppingCart } from 'react-icons/ci';
 
 const Navbar = ({cartCard}) => {
     return (
-        <nav className='shadow-md px-6 flex justify-between py-4'>
+        <nav className='shadow-lg px-6 flex justify-between py-4'>
                 <h1 className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>DigiTools</h1>
                
                  <ul className='flex justify-between gap-2.5'>

@@ -5,7 +5,7 @@ const ProductsCard = ({cardData, cartCard,  setCartCard}) => {
     // console.log(cardData)
     // console.log(cartCard);
     return (
-        <div className='bg-base-100 mx-auto grid grid-cols-4'>
+        <div className='bg-base-100 mx-auto grid grid-cols-3 p-5 gap-5'>
 
              {
         cardData.map(card => <Card 
