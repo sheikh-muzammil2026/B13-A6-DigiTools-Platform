@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Builder",
+    "description": "Create professional resumes quickly with easy-to-use templates.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "10+ templates",
+      "Basic customization",
+      "Export to PDF"
+    ],
+    "icon": "FileText"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Kit",
+    "description": "Advanced resume builder with ATS optimization and premium templates.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF & DOCX"
+    ],
+    "icon": "Award"
+  },
+  {
+    "id": 3,
+    "name": "Career Booster Pack",
+    "description": "Complete toolkit for job seekers including resume and cover letter builder.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Resume + Cover Letter",
+      "Job tracking",
+      "AI suggestions"
+    ],
+    "icon": "Briefcase"
+  },
+  {
+    "id": 4,
+    "name": "Portfolio Builder",
+    "description": "Build a stunning personal portfolio website with ease.",
+    "price": 29.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Custom domains",
+      "Drag & drop editor",
+      "Responsive design"
+    ],
+    "icon": "Globe"
+  },
+  {
+    "id": 5,
+    "name": "Interview Prep AI",
+    "description": "Practice interviews with AI and get instant feedback.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Mock interviews",
+      "Real-time feedback",
+      "Common question bank"
+    ],
+    "icon": "Mic"
+  },
+  {
+    "id": 6,
+    "name": "LinkedIn Optimizer",
+    "description": "Optimize your LinkedIn profile to attract recruiters.",
+    "price": 24.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Profile analysis",
+      "Keyword optimization",
+      "Headline generator"
+    ],
+    "icon": "Linkedin"
+  },
+  {
+    "id": 7,
+    "name": "Freelancer Starter Pack",
+    "description": "Kickstart your freelance career with essential tools.",
+    "price": 12.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Proposal templates",
+      "Client management",
+      "Invoice generator"
+    ],
+    "icon": "DollarSign"
+  },
+  {
+    "id": 8,
+    "name": "Ultimate Career Suite",
+    "description": "All-in-one solution for job seekers and professionals.",
+    "price": 49.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "All features included",
+      "Priority support",
+      "Regular updates"
+    ],
+    "icon": "Star"
+  }
+]
