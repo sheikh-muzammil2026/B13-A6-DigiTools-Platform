@@ -49,7 +49,7 @@ const Card = ({card, cartCard, setCartCard}) => {
      setClicked(!clicked)
      toast(`'${name}' added to cart `)
       }}
-      className="btn btn-primary btn-block rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA]">
+      className={`btn btn-primary btn-block rounded-full ${clicked ? 'bg-green-400 btn-active text-black' : 'bg-linear-to-r from-[#4F39F6] to-[#9514FA]'} `}>
         {clicked ? "Added to cart"
         : "Buy Now"}</button>
     </div>
