@@ -25,10 +25,10 @@ const Card = ({ card, cartCard, setCartCard }) => {
   const IconComponent = iconMap[icon];
 
   return (
-    <div className="card bg-base-300 rounded-md p-5 flex flex-col gap-5 shadow-md relative">
-      <div className="">
+    <div className="card rounded-md  p-5 flex flex-col gap-5 shadow-md relative">
+      <div className="card-body gap-4 h-full">
         <span className="badge badge-xs badge-warning absolute top-4 right-4 ">{tag}</span>
-        <div className="flex flex-col">
+        <div className="flex flex-col gap-4">
           <IconComponent className="text-3xl text-purple-500 " />
           <h2 className="text-2xl font-bold">{name}</h2>
           <p>{description}</p>
@@ -43,7 +43,7 @@ const Card = ({ card, cartCard, setCartCard }) => {
                 <span>{feature}</span>
               </li>)}
         </ul>
-        <div className="mt-2.5">
+        <div className="mt-auto">
           <button onClick={() => {
             setCartCard([...cartCard, card])
             setClicked(!clicked)

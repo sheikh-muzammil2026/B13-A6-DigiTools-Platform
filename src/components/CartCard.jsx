@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+
 import { FiFileText } from "react-icons/fi";
 import { FaAward, FaBriefcase, FaGlobe, FaStar } from "react-icons/fa";
 import { BsMic } from "react-icons/bs";
@@ -30,14 +30,14 @@ const CartCard = ({ cartCard, setCartCard }) => {
 
 
    return (
-      <div className='container mx-auto bg-base-300 p-6'>
+      <div className='container mx-auto p-6 mb-12 shadow-2xl'>
          <h1 className='text-xl font-bold'>Your cart</h1>
 
          {
 
             cartCard.length <= 0 ?
                <div className='flex justify-between items-center flex-col opacity-50 space-y-5 p-5'>
-                  <img className='w-[60px]' src={cartImage} alt="empty cart image" />
+                  <img className='w-15' src={cartImage} alt="empty cart image" />
                   <p className=''>Your cart empty</p>
                </div>
                : <div>
@@ -62,7 +62,7 @@ const CartCard = ({ cartCard, setCartCard }) => {
                      <p className=''>Total</p>
                      <p>${totalPrice}</p>
                   </div>
-                  <button onClick={() => setCartCard([])} className="btn btn-primary btn-block rounded-full">Proceed to Checkout</button>
+                  <button onClick={() => setCartCard([])} className="btn btn-primary btn-block rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA]">Proceed to Checkout</button>
                </div>
          }
 

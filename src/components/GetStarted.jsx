@@ -5,7 +5,7 @@ import pack from '../assets/products/package.png';
 
 const GetStarted = () => {
     return (
-        <div className='flex flex-col bg-base-300 justify-center items-center p-12'>
+        <div className='flex flex-col justify-center items-center p-12'>
             <div className="section-content flex flex-col justify-center items-center gap-3">
                 <h3 className="section-heading font-bold text-3xl">Get Started in 3 Steps</h3>
                 <p className="section-description">Start using premium digital tools in minutes, not hours.</p>
