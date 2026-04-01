@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>GitHub Issues Tracker</title>
+
+  
+
+  <!-- tailwind and daisyui cdn link -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+<!-- google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+    
+<style>
+  *{
+      font-family: "Geist", sans-serif;
+  }
+</style>
+  
+</head>
+
+<body>
+ 
+<section class="login-form  bg-slate-50 py-16">
+  
+  <!-- form container-->
+  <form class="form-container flex items-center justify-center flex-col gap-4 bg-white shadow-sm max-w-md mx-auto py-8 px-6">
+   
+    <!-- form content -->
+  <div  class="flex items-center justify-center flex-col gap-4 text-center">
+   <img class="max-w-[60px]" src="./assets/image/github-logo.png" alt="">
+    <div>
+      <h2 class="font-semibold">GitHub Issues Tracker</h2>
+       <p>Sign in to manage your issues</p>
+    </div>
+  </div>
+
+    <!-- input field -->
+  <fieldset class="fieldset border-base-300 rounded-box w-full ">
+  
+  <label class="label font-semibold">Username</label>
+  <input id="userName" type="text" class="input w-full" placeholder="Enter Username" />
+
+  <label class="label font-semibold">Password</label>
+  <input id="pass" type="password" class="input w-full" placeholder="Enter Password" />
+
+  <button type="button" id="btn-login" class="btn btn-primary mt-4">Login</button>
+</fieldset>
+    <div class="divider">OR</div>
+     <!-- Credentials field -->
+    <p>Demo Credentials:</p>
+    <div class="text-sm bg-[#F8FAFC] text-center py-6 w-full">
+      <p>Username: admin</p>
+      <p>Password: admin123</p>
+  </div>
+
+  </form>
+</section>
+  <section class='bg-[#101727] text-white p-8'>
+    <div class="flex flex-col justify-center items-center text-center md:justify-between md:flex-row" >
+      <div class="flex flex-col ">
+        <h2 class="font-bold text-3xl">DigiTools</h2>
+        <p class="opacity-[50%] mt-2">Premium digital tools for creators, <br/> professionals, and businesses. Work smarter <br/> with our suite of powerful tools.</p>
+      </div>
+      
+      <div class="flex flex-col justify-center items-center  gap-2 mt-8">
+        <h2 class="font-bold">Product</h2>
+        <ul class="flex flex-col gap-2 opacity-[50%] mt-2">
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Templates</a></li>
+          <li><a href="#">Integrations</a></li>
+        </ul>
+      </div>
+
+      <div class="flex flex-col justify-center items-center  gap-2 mt-8">
+        <h2 class="font-bold">Company</h2>
+        <ul class="flex flex-col gap-2 opacity-[50%] mt-2">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </div>
+
+      <div class="flex flex-col justify-center items-center  gap-2 mt-8">
+        <h2 class="font-bold">Resources</h2>
+        <ul class="flex flex-col gap-2 opacity-[50%] mt-2">
+          <li><a href="#">Documentation</a></li>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div> 
+      
+        <div class="flex flex-col gap-4 mt-8">
+          <h2>Social Links</h2>
+          <div>
+          <img src="" alt="Instagram icon" />
+          <img src="" alt="Facebook icon" />
+      	  <img src="" alt="X icon" />
+          </div>
+        </div>  
+                               
+        <div class="flex flex-col-reverse justify-center opacity-[40%] gap-4 md:justify-between md:items-center mt-8">
+          <small>© 2026 Digitools. All rights reserved.</small>
+          <ul class="flex flex-col gap-2 mt-2">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Cookies</a></li>
+          </ul>                       
+        </div>
+    </div>
+  </section>
+<script src="./assets/script/login.js"></script>
+</body>
+
+</html>
