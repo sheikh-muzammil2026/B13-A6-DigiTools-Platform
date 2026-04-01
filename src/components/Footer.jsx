@@ -45,7 +45,7 @@ const Footer = () => {
 
                     <div className="Social_Links flex flex-col gap-4 mt-8">
                         <h2>Social Links</h2>
-                        <div className='flex gap-2'>
+                        <div className='flex justify-center items-center gap-2'>
                             <FaInstagram></FaInstagram>
                             <FaFacebook></FaFacebook>
                             <FaXTwitter></FaXTwitter>

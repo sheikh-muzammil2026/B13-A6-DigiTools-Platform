@@ -2,11 +2,11 @@ import React from 'react';
 
 const PricingCards = () => {
     return (
-        <div className='bg-white flex flex-col justify-center items-center p-8'>
+        <div className='bg-white flex flex-col justify-center items-center p-8 shadow-2xl text-center'>
             <h3 className="section-heading font-bold text-2xl">Simple, Transparent Pricing</h3>
             <p className="pricingCard-section-description">Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
 
-            <div className="card-container grid grid-cols-1 md:grid-cols-3 gap-4 pt-5 ">
+            <div className="card-container grid grid-cols-1  gap-9 md:grid-cols-3 md:gap-4  pt-5 ">
                 <div className="card-1  bg-base-100  rounded-2xl shadow-sm h-full">
                     <div className="p-4 flex flex-col h-full">
                         {/* <span className="badge badge-xs badge-warning">Most Popular</span> */}
