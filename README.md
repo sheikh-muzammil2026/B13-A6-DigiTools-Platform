@@ -1,89 +1,16 @@
-# 🎯 DigiTools - Digital Tools Buying Platform
+# React + Vite
 
-📌 Project Overview
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-DigiTools is a modern digital tools buying platform where users can browse various digital services and products, add them to a cart, and complete the checkout process easily . The project is built with a clean UI/UX, ensuring a smooth and user-friendly experience across all devices.
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-🚀 Live Demo
+## React Compiler
 
-🔗 Live Site: https://my-a6-digitools-platform.netlify.app/
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-💻 GitHub Repository
+## Expanding the ESLint configuration
 
-🔗 Repo Link: 
-https://github.com/sheikh-muzammil2026/B13-A6-DigiTools-Platform/edit/main/README.md
-
----
-
-🛠️ Technologies Used
-
-- ⚛️ React.js
-- 🎨 Tailwind CSS & DaisyUI
-- 📜 JavaScript (ES6+)
-- 🔔 React-Toastify
-- 📦 JSON (for product data)
-
----
-
-✨ Key Features
-
-🛒 1. Cart Management System
-
-- Users can add products to the cart
-- Real-time cart count is displayed in the navbar
-- Products can be removed individually
-- "Proceed to Checkout" clears all cart items
-
-🔄 2. Product & Cart Toggle System
-
-- Product section is visible by default
-- Users can toggle between Product and Cart sections
-- Displays a friendly message when the cart is empty
-
-🔔 3. Toast Notification System
-
-- Shows “Added to cart” notification on product add
-- Displays alert on product removal
-- Shows success message on checkout
-
----
-
-📦 Product Features
-
-- Dynamic product cards loaded from JSON data
-- Each product includes:
-  - Name
-  - Description
-  - Price & Period
-  - Tag (Popular / New / Best Seller)
-  - Features list
-  - Icon
-
----
-
-📱 Responsive Design
-
-- Fully responsive across Mobile, Tablet, and Desktop
-- Clean layout with proper spacing and alignment
-
----
-
-🧩 Additional Functionalities
-
-- Cart count increases on product selection
-- Cart resets after checkout
-- Modern gradient-based UI design
-
----
-
-📜 Author
-
-👤 Sheikh Muzammil
-
----
-
-📌 Note
-
-This project was created as part of the Programming Hero Assignment (A-6).
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

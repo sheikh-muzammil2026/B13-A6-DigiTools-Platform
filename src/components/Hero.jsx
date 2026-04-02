@@ -5,7 +5,7 @@ import banner from '../assets/products/banner.png';
 const Hero = () => {
     return (
         <div className='flex flex-col md:flex-row mx-auto justify-center items-center my-4 md:my-15'>
-            <div className="hero-content flex flex-col items-start gap-5">
+            <div className="hero-content  flex flex-col items-start gap-5">
                 <span className='bg-[#E1E7FF] rounded-full flex justify-center items-center py-1 px-2'><img src={badge} alt="" /><p className="badge bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent border-none">New: AI-Powered Tools Available</p></span>
                 <p className="hero-heading text-2xl md:text-5xl">Supercharge Your <br></br><p className='gradient-text'>Digital Workflow</p></p>
                 <p className="hero-description">Access premium AI tools, design assets, templates, and productivity <br></br>

@@ -4,6 +4,7 @@ import { FaAward, FaBriefcase, FaGlobe, FaStar } from "react-icons/fa";
 import { BsMic } from "react-icons/bs";
 import { FaLinkedin, FaDollarSign } from "react-icons/fa";
 import cartImage from '../assets/products/shopping-cart.png'
+import { toast } from "react-toastify";
 
 const iconMap = {
    FileText: FiFileText,
@@ -24,6 +25,7 @@ const CartCard = ({ cartCard, setCartCard }) => {
    const handleDeleteCard = (card) => {
       const filteredCards = cartCard.filter((filteredCard) => filteredCard.id != card.id);
       setCartCard(filteredCards);
+      toast.success("removed")
    }
 
    const totalPrice = cartCard.reduce((sum, cardObject) => sum + cardObject.price, 0);
@@ -62,7 +64,10 @@ const CartCard = ({ cartCard, setCartCard }) => {
                      <p className=''>Total</p>
                      <p>${totalPrice}</p>
                   </div>
-                  <button onClick={() => setCartCard([])} className="btn btn-primary btn-block rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA]">Proceed to Checkout</button>
+                  <button onClick={() => {
+                     setCartCard([])
+                     toast.success("All cart items Cleared")
+                  }} className="btn btn-primary btn-block rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA]">Proceed to Checkout</button>
                </div>
          }
 

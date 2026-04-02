@@ -5,9 +5,10 @@ import { IoMenu } from 'react-icons/io5';
 const Navbar = ({ cartCard }) => {
     const [showMenu, setShowMenu] = useState(false)
     return (
-        <nav className='shadow-lg px-6 flex justify-between py-4'>
+        <nav className={`shadow-lg px-6 flex justify-between py-4 ${showMenu ? 'mb-36' : 'mb-8'}`}>
             {/* Logo */}
-            <IoMenu className='flex md:hidden'
+
+            <IoMenu className='relative md:hidden'
                 onClick={() => { setShowMenu(!showMenu) }}></IoMenu>
             <h1 className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>DigiTools</h1>
 
@@ -22,7 +23,7 @@ const Navbar = ({ cartCard }) => {
 
             {/* Mobile Menu */}
             {showMenu && (
-                <ul className='absolute top-16 left-0 w-full bg-white shadow-md flex flex-col gap-4 p-4 md:hidden'>
+                <ul className={`absolute duration-2000 top-10 left-0  bg-amber-200  text-black shadow-md flex flex-col gap-2 p-4 md:hidden`}>
                     <li><a href='#'>Products</a></li>
                     <li><a href='#'>Features</a></li>
                     <li><a href='#'>Pricing</a></li>
